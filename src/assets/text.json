@@ -1,0 +1,26 @@
+{
+  "ru": {
+    "menu": {
+      "about": "Обо мне",
+      "projects": "Проекты",
+      "contacts": "Контакты"
+    },
+    "biography": {
+      "hello": "Здравствуйте!",
+      "titleText": "Вы находитесь на моём персональном сайте-портфолио. Ниже вы найдёте актуальную информацию обо мне, моём опыте, навыках и проектах.",
+      "aboutMeText": "<h2>Алексей Павлов</h2>\n                    <div class=\"current_job\">fullstack web developer</div>\n                    <div><b>Дата рождения:</b> 02.04.1988</div>\n                    <div><b>Город:</b> Российская Федерация, Саратов</div>\n                    <div><b>Релевантный опыт работы:</b> более 10 лет</div>\n                    <div><b>Занимаемая должность:</b> руководитель отдела разработки программного обеспечения ООО \"АльфаТелл\"</div>\n                    <div><b>Используемые технологии:</b> Java 8, Spring Framework</div>\n                    <div><b>Специализация:</b> разработка программного обеспечения</div>\n                    <div>\n                        <b>Образование:</b> Высшее. Магистр.\n                        <ul>\n                            <li>2013 Саратов, Саратовский государственный технический университет им. Ю.А. Гагарина, (САДИ, ПСК)</li>\n                            <li>2011 Саратов, Саратовский государственный технический университет им. Ю.А. Гагарина, (АСФ, ПСК)</li>\n                            <li>2010 Саратов, Саратовский государственный технический университет им. Ю.А. Гагарина, (Факультет Электронной Техники и Приборостроения, Системы Искусственного интеллекта)</li>\n                        </ul>\n                    </div>\n                    <div><b>Использовал в работе технологии:</b> Jira, Docker, Jenkins, Kafka</div>"
+    }
+  },
+  "eng": {
+    "menu": {
+      "about": "About me",
+      "projects": "Projects",
+      "contacts": "Contacts"
+    },
+    "biography": {
+      "hello": "Greetings!",
+      "titleText": "You are on my personal portfolio site. Below you will find relevant information about me, my experience, skills and projects.",
+      "aboutMeText": "<h2>Aleksey Pavlov</h2>\n                    <div class=\"current_job\">fullstack web developer</div>\n                    <div><b>Date of Birth:</b> 02.04.1988</div>\n                    <div><b>City:</b> Saratov, Russia</div>\n                    <div><b>Relevant work experience:</b> more than 10 years</div>\n                    <div><b>Position held:</b> Head of Software Development LLC \"AlfaTell\"</div>\n                    <div><b>Used technologies:</b> Java 8, Spring Framework</div>\n                    <div><b>Specialization:</b> web application development</div>\n                    <div>\n                        <b>Education:</b> Higher. Master.\n                        <ul>\n                            <li>2013 Saratov, Saratov State Technical University, (Institute of Urban Planning, Architecture & Civil Engineering)</li>\n                            <li>2011 Saratov, Saratov State Technical University, (Institute of Urban Planning, Architecture & Civil Engineering)</li>\n                            <li>2010 Saratov, Saratov State Technical University, (Institute of Electronic Engineering & Instrumentation, Artificial Intelligence Systems)</li>\n                        </ul>\n                    </div>\n                    <div><b>Used technology in work:</b> Jira, Docker, Jenkins, Kafka</div>"
+    }
+  }
+}
