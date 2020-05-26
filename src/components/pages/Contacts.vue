@@ -1,12 +1,16 @@
 <template>
     <div class="container-page">
-        {{msg}}
-        <a href="https://yandex.ru" target="_blank">link</a>
+        <ContactsMin></ContactsMin>
     </div>
 </template>
 <script>
+    import ContactsMin from '@/components/pages/about/Contacts'
+
     export default {
         name: 'Contacts',
+        components: {
+            ContactsMin
+        },
         data () {
             return {
                 msg: 'Welcome contacts page'

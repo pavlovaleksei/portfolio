@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div><h2>{{msg.title}}</h2></div>
+        <div><h1>{{msg.title}}</h1></div>
         <div class="projectContainer">
             <div class="projectBox">
                 <div class="title">{{msg.misInfoclinica.title}}</div>

@@ -11,7 +11,7 @@
       "aboutMeText": "<h2>Алексей Павлов</h2>\n<div class=\"current_job\">fullstack web developer</div>\n<div><b>Дата рождения:</b> 02.04.1988</div>\n<div><b>Город:</b> Российская Федерация, Саратов</div>\n<div><b>Релевантный опыт работы:</b> более 10 лет</div>\n<div><b>Занимаемая должность:</b> руководитель отдела разработки программного обеспечения ООО \"АльфаТелл\"</div>\n<div>\n    <b>Используемые технологии:</b>\n    <ul>\n        <li>\n            <b>Front-end: </b>\n            JavaScript ES6, VueJs, ExtJs, Backbone, ElectronJs, sass, less\n        </li>\n        <li>\n            <b>Back-end: </b>\n            Java, Scala, Spring Framework, Play Framework\n        </li>\n        <li>\n            <b>БД: </b>\n            MySQL, mongoDb\n        </li>\n        <li>\n            <b>Остальное: </b>\n            Akka, apache kafka\n        </li>\n    </ul>\n</div>\n<div><b>Специализация:</b> разработка WEB приложений разного уровня сложности</div>\n<div>\n    <b>Образование:</b> Высшее. Магистр.\n    <ul>\n        <li>2013 Саратов, Саратовский государственный технический университет им. Ю.А. Гагарина, (САДИ, ПСК)</li>\n        <li>2011 Саратов, Саратовский государственный технический университет им. Ю.А. Гагарина, (АСФ, ПСК)</li>\n        <li>2010 Саратов, Саратовский государственный технический университет им. Ю.А. Гагарина, (Факультет Электронной Техники и Приборостроения, Системы Искусственного интеллекта)</li>\n    </ul>\n</div>\n<div><b>Использовал в работе технологии:</b> Linux, Jira, Jenkins, Docker</div>"
     },
     "aboutProject": {
-      "title": "Принимал участие в разработке проектов:",
+      "title": "Принимал участие в разработке проектов",
       "more": "Подробнее...",
       "misInfoclinica": {
         "title": "МИС Инфоклиника",
@@ -27,7 +27,7 @@
       },
       "contactCenter": {
         "title": "Контакт-центр Альфателл",
-        "detail": "Программно-аппаратное решение, позволяющее с минимальными финансовыми затратами построить полноценную корпоративную телефонную сеть с единым планом городских коротких внутренних номеров."
+        "detail": "Программно-аппаратное решение, позволяющее построить полноценную корпоративную телефонную сеть с единым планом городских коротких внутренних номеров."
       },
       "visualControl": {
         "title": "Визуальный контроль",
@@ -37,6 +37,10 @@
         "title": "Терминал самообслуживания",
         "detail": "Решение, позволяющее медицинской клинике получать информацию о посещении пациентом.<br>Сервис реализован в виде терминального ПО, установленного при входе в медицинскую клинику."
       }
+    },
+    "aboutContacts": {
+      "title": "Связь со мной",
+      "phone": "Телефон: "
     }
   },
 
@@ -55,7 +59,7 @@
       "aboutMeText": "<h2>Aleksey Pavlov</h2>\n<div class=\"current_job\">fullstack web developer</div>\n<div><b>Date of Birth:</b> 02.04.1988</div>\n<div><b>City:</b> Saratov, Russia</div>\n<div><b>Relevant work experience:</b> more than 10 years</div>\n<div><b>Position held:</b> Head of Software Development LLC \"AlfaTell\"</div>\n<div>\n    <b>Used technologies:</b>\n    <ul>\n        <li>\n            <b>Front-end: </b>\n            JavaScript ES6, VueJs, ExtJs, Backbone, ElectronJs, sass, less\n        </li>\n        <li>\n            <b>Back-end: </b>\n            Java, Scala, Spring Framework, Play Framework\n        </li>\n        <li>\n            <b>DB: </b>\n            MySQL, mongoDb\n        </li>\n        <li>\n            <b>Other: </b>\n            Akka, apache kafka\n        </li>\n    </ul>\n</div>\n<div><b>Specialization:</b> development of WEB applications of various levels of complexity</div>\n<div>\n    <b>Education:</b> Higher. Master.\n    <ul>\n        <li>2013 Saratov, Saratov State Technical University, (Institute of Urban Planning, Architecture & Civil Engineering)</li>\n        <li>2011 Saratov, Saratov State Technical University, (Institute of Urban Planning, Architecture & Civil Engineering)</li>\n        <li>2010 Saratov, Saratov State Technical University, (Institute of Electronic Engineering & Instrumentation, Artificial Intelligence Systems)</li>\n    </ul>\n</div>\n<div><b>Used technology in work:</b> Linux, Jira, Jenkins, Docker</div>"
     },
     "aboutProject": {
-      "title": "Projects under development:",
+      "title": "Projects under development",
       "more": "More details...",
       "misInfoclinica": {
         "title": "MIS INFOCLINICA",
@@ -81,6 +85,10 @@
         "title": "Self-service terminal",
         "detail": "A solution that allows a medical clinic to receive information about a patient’s visit. <br> The service is implemented as terminal software installed at the entrance to a medical clinic."
       }
+    },
+    "aboutContacts": {
+      "title": "Connection with me",
+      "phone": "Phone: "
     }
   }
 }
