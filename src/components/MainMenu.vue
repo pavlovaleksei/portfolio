@@ -12,10 +12,7 @@
                 <div v-if="!isRu" class="itemLanguage" @click="clickRu">RUS</div>
                 <div v-if="isRu" class="itemLanguage" @click="clickEng">ENG</div>
             </div>
-
         </div>
-
-
     </div>
 </template>
 <script>

@@ -8,9 +8,41 @@
     "biography": {
       "hello": "Здравствуйте!",
       "titleText": "Вы находитесь на моём персональном сайте-портфолио. Ниже вы найдёте актуальную информацию обо мне, моём опыте, навыках и проектах.",
-      "aboutMeText": "<h2>Алексей Павлов</h2>\n                    <div class=\"current_job\">fullstack web developer</div>\n                    <div><b>Дата рождения:</b> 02.04.1988</div>\n                    <div><b>Город:</b> Российская Федерация, Саратов</div>\n                    <div><b>Релевантный опыт работы:</b> более 10 лет</div>\n                    <div><b>Занимаемая должность:</b> руководитель отдела разработки программного обеспечения ООО \"АльфаТелл\"</div>\n                    <div><b>Используемые технологии:</b> Java 8, Spring Framework</div>\n                    <div><b>Специализация:</b> разработка программного обеспечения</div>\n                    <div>\n                        <b>Образование:</b> Высшее. Магистр.\n                        <ul>\n                            <li>2013 Саратов, Саратовский государственный технический университет им. Ю.А. Гагарина, (САДИ, ПСК)</li>\n                            <li>2011 Саратов, Саратовский государственный технический университет им. Ю.А. Гагарина, (АСФ, ПСК)</li>\n                            <li>2010 Саратов, Саратовский государственный технический университет им. Ю.А. Гагарина, (Факультет Электронной Техники и Приборостроения, Системы Искусственного интеллекта)</li>\n                        </ul>\n                    </div>\n                    <div><b>Использовал в работе технологии:</b> Jira, Docker, Jenkins, Kafka</div>"
+      "aboutMeText": "<h2>Алексей Павлов</h2>\n<div class=\"current_job\">fullstack web developer</div>\n<div><b>Дата рождения:</b> 02.04.1988</div>\n<div><b>Город:</b> Российская Федерация, Саратов</div>\n<div><b>Релевантный опыт работы:</b> более 10 лет</div>\n<div><b>Занимаемая должность:</b> руководитель отдела разработки программного обеспечения ООО \"АльфаТелл\"</div>\n<div>\n    <b>Используемые технологии:</b>\n    <ul>\n        <li>\n            <b>Front-end: </b>\n            JavaScript ES6, VueJs, ExtJs, Backbone, ElectronJs, sass, less\n        </li>\n        <li>\n            <b>Back-end: </b>\n            Java, Scala, Spring Framework, Play Framework\n        </li>\n        <li>\n            <b>БД: </b>\n            MySQL, mongoDb\n        </li>\n        <li>\n            <b>Остальное: </b>\n            Akka, apache kafka\n        </li>\n    </ul>\n</div>\n<div><b>Специализация:</b> разработка WEB приложений разного уровня сложности</div>\n<div>\n    <b>Образование:</b> Высшее. Магистр.\n    <ul>\n        <li>2013 Саратов, Саратовский государственный технический университет им. Ю.А. Гагарина, (САДИ, ПСК)</li>\n        <li>2011 Саратов, Саратовский государственный технический университет им. Ю.А. Гагарина, (АСФ, ПСК)</li>\n        <li>2010 Саратов, Саратовский государственный технический университет им. Ю.А. Гагарина, (Факультет Электронной Техники и Приборостроения, Системы Искусственного интеллекта)</li>\n    </ul>\n</div>\n<div><b>Использовал в работе технологии:</b> Linux, Jira, Jenkins, Docker</div>"
+    },
+    "aboutProject": {
+      "title": "Принимал участие в разработке проектов:",
+      "more": "Подробнее...",
+      "misInfoclinica": {
+        "title": "МИС Инфоклиника",
+        "detail": "Медицинская информационная система Инфоклиника - это основа для построения единого, хорошо структурированного информационного пространства клиники."
+      },
+      "infoclinicaRU": {
+        "title": "ИНФОКЛИНИКА.RU",
+        "detail": "ИНФОКЛИНИКА.RU - комплексное SaaS решение для организации сайта электронной регистратуры и личного кабинета пациента клиники."
+      },
+      "labportal": {
+        "title": "ЛАБПОРТАЛ",
+        "detail": "Сервис обмена данными по лабораторным исследованиям между клиниками и лабораториями. Централизованная поддержка справочников и преаналитических правил ведущих лабораторий."
+      },
+      "contactCenter": {
+        "title": "Контакт-центр Альфателл",
+        "detail": "Программно-аппаратное решение, позволяющее с минимальными финансовыми затратами построить полноценную корпоративную телефонную сеть с единым планом городских коротких внутренних номеров."
+      },
+      "visualControl": {
+        "title": "Визуальный контроль",
+        "detail": "Сервис, позволяющий организовать видеоконтроль любого масштаба при помощи любого типа ip, web камер, без использования специальных аппаратныйх комплексов (видеорегистратора)."
+      },
+      "terminal": {
+        "title": "Терминал самообслуживания",
+        "detail": "Решение, позволяющее медицинской клинике получать информацию о посещении пациентом.<br>Сервис реализован в виде терминального ПО, установленного при входе в медицинскую клинику."
+      }
     }
   },
+
+
+
+
   "eng": {
     "menu": {
       "about": "About me",
@@ -20,7 +52,35 @@
     "biography": {
       "hello": "Greetings!",
       "titleText": "You are on my personal portfolio site. Below you will find relevant information about me, my experience, skills and projects.",
-      "aboutMeText": "<h2>Aleksey Pavlov</h2>\n                    <div class=\"current_job\">fullstack web developer</div>\n                    <div><b>Date of Birth:</b> 02.04.1988</div>\n                    <div><b>City:</b> Saratov, Russia</div>\n                    <div><b>Relevant work experience:</b> more than 10 years</div>\n                    <div><b>Position held:</b> Head of Software Development LLC \"AlfaTell\"</div>\n                    <div><b>Used technologies:</b> Java 8, Spring Framework</div>\n                    <div><b>Specialization:</b> web application development</div>\n                    <div>\n                        <b>Education:</b> Higher. Master.\n                        <ul>\n                            <li>2013 Saratov, Saratov State Technical University, (Institute of Urban Planning, Architecture & Civil Engineering)</li>\n                            <li>2011 Saratov, Saratov State Technical University, (Institute of Urban Planning, Architecture & Civil Engineering)</li>\n                            <li>2010 Saratov, Saratov State Technical University, (Institute of Electronic Engineering & Instrumentation, Artificial Intelligence Systems)</li>\n                        </ul>\n                    </div>\n                    <div><b>Used technology in work:</b> Jira, Docker, Jenkins, Kafka</div>"
+      "aboutMeText": "<h2>Aleksey Pavlov</h2>\n<div class=\"current_job\">fullstack web developer</div>\n<div><b>Date of Birth:</b> 02.04.1988</div>\n<div><b>City:</b> Saratov, Russia</div>\n<div><b>Relevant work experience:</b> more than 10 years</div>\n<div><b>Position held:</b> Head of Software Development LLC \"AlfaTell\"</div>\n<div>\n    <b>Used technologies:</b>\n    <ul>\n        <li>\n            <b>Front-end: </b>\n            JavaScript ES6, VueJs, ExtJs, Backbone, ElectronJs, sass, less\n        </li>\n        <li>\n            <b>Back-end: </b>\n            Java, Scala, Spring Framework, Play Framework\n        </li>\n        <li>\n            <b>DB: </b>\n            MySQL, mongoDb\n        </li>\n        <li>\n            <b>Other: </b>\n            Akka, apache kafka\n        </li>\n    </ul>\n</div>\n<div><b>Specialization:</b> development of WEB applications of various levels of complexity</div>\n<div>\n    <b>Education:</b> Higher. Master.\n    <ul>\n        <li>2013 Saratov, Saratov State Technical University, (Institute of Urban Planning, Architecture & Civil Engineering)</li>\n        <li>2011 Saratov, Saratov State Technical University, (Institute of Urban Planning, Architecture & Civil Engineering)</li>\n        <li>2010 Saratov, Saratov State Technical University, (Institute of Electronic Engineering & Instrumentation, Artificial Intelligence Systems)</li>\n    </ul>\n</div>\n<div><b>Used technology in work:</b> Linux, Jira, Jenkins, Docker</div>"
+    },
+    "aboutProject": {
+      "title": "Projects under development:",
+      "more": "More details...",
+      "misInfoclinica": {
+        "title": "MIS INFOCLINICA",
+        "detail": "Infoclinic's medical information system is the basis for building a single, well-structured clinic information space."
+      },
+      "infoclinicaRU": {
+        "title": "INFOCLINICA.RU",
+        "detail": "INFOCLINICA.RU - a comprehensive SaaS solution for organizing an electronic registry website and a personal account of a patient at the clinic."
+      },
+      "labportal": {
+        "title": "LABPORTAL",
+        "detail": "Laboratory data exchange service between clinics and laboratories. Centralized support of reference books and preanalytical rules of leading laboratories."
+      },
+      "contactCenter": {
+        "title": "Contact-center Alfatell",
+        "detail": "A hardware-software solution that allows building a full-fledged corporate telephone network with a single plan of city short internal numbers with minimal financial costs."
+      },
+      "visualControl": {
+        "title": "Visual Control",
+        "detail": "A service that allows you to organize video monitoring of any scale using any type of ip, web camera, without the use of special hardware systems (video recorder)."
+      },
+      "terminal": {
+        "title": "Self-service terminal",
+        "detail": "A solution that allows a medical clinic to receive information about a patient’s visit. <br> The service is implemented as terminal software installed at the entrance to a medical clinic."
+      }
     }
   }
 }
