@@ -1,17 +1,16 @@
 {
   "ru": {
+    "name": "Алексей Павлов",
     "menu": {
       "about": "Обо мне",
       "projects": "Проекты",
       "contacts": "Контакты"
     },
     "biography": {
-      "hello": "Здравствуйте!",
-      "titleText": "Вы находитесь на моём персональном сайте-портфолио. Ниже вы найдёте актуальную информацию обо мне, моём опыте, навыках и проектах.",
-      "aboutMeText": "<h2>Алексей Павлов</h2>\n<div class=\"current_job\">fullstack web developer</div>\n<div><b>Дата рождения:</b> 02.04.1988</div>\n<div><b>Город:</b> Российская Федерация, Саратов</div>\n<div><b>Релевантный опыт работы:</b> более 10 лет</div>\n<div><b>Занимаемая должность:</b> руководитель отдела разработки программного обеспечения ООО \"АльфаТелл\"</div>\n<div>\n    <b>Используемые технологии:</b>\n    <ul>\n        <li>\n            <b>Front-end: </b>\n            JavaScript ES6, VueJs, ExtJs, Backbone, ElectronJs, sass, less\n        </li>\n        <li>\n            <b>Back-end: </b>\n            Java, Scala, Spring Framework, Play Framework\n        </li>\n        <li>\n            <b>БД: </b>\n            MySQL, mongoDb\n        </li>\n        <li>\n            <b>Остальное: </b>\n            Akka, apache kafka\n        </li>\n    </ul>\n</div>\n<div><b>Специализация:</b> разработка WEB приложений разного уровня сложности</div>\n<div>\n    <b>Образование:</b> Высшее. Магистр.\n    <ul>\n        <li>2013 Саратов, Саратовский государственный технический университет им. Ю.А. Гагарина, (САДИ, ПСК)</li>\n        <li>2011 Саратов, Саратовский государственный технический университет им. Ю.А. Гагарина, (АСФ, ПСК)</li>\n        <li>2010 Саратов, Саратовский государственный технический университет им. Ю.А. Гагарина, (Факультет Электронной Техники и Приборостроения, Системы Искусственного интеллекта)</li>\n    </ul>\n</div>\n<div><b>Использовал в работе технологии:</b> Linux, Jira, Jenkins, Docker</div>"
+      "aboutMeText": "<div><b>Дата рождения:</b> 02.04.1988</div>\n<div><b>Город:</b> Российская Федерация, Саратов</div>\n<div><b>Релевантный опыт работы:</b> более 10 лет</div>\n<div><b>Специализация:</b> разработка WEB приложений разного уровня сложности</div>\n<div><b>Занимаемая должность:</b> руководитель отдела разработки программного обеспечения ООО \"АльфаТелл\"</div>\n<div>\n    <b>Используемые технологии:</b>\n    <ul>\n        <li>\n            <b>Front-end: </b>\n            JavaScript ES6, VueJs, ExtJs, Backbone, ElectronJs, sass, less\n        </li>\n        <li>\n            <b>Back-end: </b>\n            Java, Scala, Spring Framework, Play Framework\n        </li>\n        <li>\n            <b>БД: </b>\n            MySQL, mongoDb\n        </li>\n        <li>\n            <b>Остальное: </b>\n            Akka, apache kafka\n        </li>\n    </ul>\n</div>\n<div><b>Использовал в работе технологии:</b> Linux, Jira, Jenkins, Docker</div>"
     },
     "aboutProject": {
-      "title": "Принимал участие в разработке проектов",
+      "aboutProjectTitleText": "Принимал участие в разработке проектов",
       "more": "Подробнее...",
       "misInfoclinica": {
         "title": "МИС Инфоклиника",
@@ -39,7 +38,7 @@
       }
     },
     "aboutContacts": {
-      "title": "Связь со мной",
+      "title": "Контакты",
       "phone": "Телефон: "
     }
   },
@@ -48,18 +47,17 @@
 
 
   "eng": {
+    "name": "Aleksey Pavlov",
     "menu": {
       "about": "About me",
       "projects": "Projects",
       "contacts": "Contacts"
     },
     "biography": {
-      "hello": "Greetings!",
-      "titleText": "You are on my personal portfolio site. Below you will find relevant information about me, my experience, skills and projects.",
-      "aboutMeText": "<h2>Aleksey Pavlov</h2>\n<div class=\"current_job\">fullstack web developer</div>\n<div><b>Date of Birth:</b> 02.04.1988</div>\n<div><b>City:</b> Saratov, Russia</div>\n<div><b>Relevant work experience:</b> more than 10 years</div>\n<div><b>Position held:</b> Head of Software Development LLC \"AlfaTell\"</div>\n<div>\n    <b>Used technologies:</b>\n    <ul>\n        <li>\n            <b>Front-end: </b>\n            JavaScript ES6, VueJs, ExtJs, Backbone, ElectronJs, sass, less\n        </li>\n        <li>\n            <b>Back-end: </b>\n            Java, Scala, Spring Framework, Play Framework\n        </li>\n        <li>\n            <b>DB: </b>\n            MySQL, mongoDb\n        </li>\n        <li>\n            <b>Other: </b>\n            Akka, apache kafka\n        </li>\n    </ul>\n</div>\n<div><b>Specialization:</b> development of WEB applications of various levels of complexity</div>\n<div>\n    <b>Education:</b> Higher. Master.\n    <ul>\n        <li>2013 Saratov, Saratov State Technical University, (Institute of Urban Planning, Architecture & Civil Engineering)</li>\n        <li>2011 Saratov, Saratov State Technical University, (Institute of Urban Planning, Architecture & Civil Engineering)</li>\n        <li>2010 Saratov, Saratov State Technical University, (Institute of Electronic Engineering & Instrumentation, Artificial Intelligence Systems)</li>\n    </ul>\n</div>\n<div><b>Used technology in work:</b> Linux, Jira, Jenkins, Docker</div>"
+      "aboutMeText": "<div><b>Date of Birth:</b> 02.04.1988</div>\n<div><b>City:</b> Saratov, Russia</div>\n<div><b>Relevant work experience:</b> more than 10 years</div>\n<div><b>Specialization:</b> development of WEB applications of various levels of complexity</div>\n<div><b>Position held:</b> Head of Software Development LLC \"AlfaTell\"</div>\n<div>\n    <b>Used technologies:</b>\n    <ul>\n        <li>\n            <b>Front-end: </b>\n            JavaScript ES6, VueJs, ExtJs, Backbone, ElectronJs, sass, less\n        </li>\n        <li>\n            <b>Back-end: </b>\n            Java, Scala, Spring Framework, Play Framework\n        </li>\n        <li>\n            <b>DB: </b>\n            MySQL, mongoDb\n        </li>\n        <li>\n            <b>Other: </b>\n            Akka, apache kafka\n        </li>\n    </ul>\n</div>\n<div><b>Used technology in work:</b> Linux, Jira, Jenkins, Docker</div>"
     },
     "aboutProject": {
-      "title": "Projects under development",
+      "aboutProjectTitleText": "Developed projects",
       "more": "More details...",
       "misInfoclinica": {
         "title": "MIS INFOCLINICA",
@@ -87,8 +85,7 @@
       }
     },
     "aboutContacts": {
-      "title": "Connection with me",
-      "phone": "Phone: "
+      "title": "Contact"
     }
   }
 }

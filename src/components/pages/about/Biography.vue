@@ -1,30 +1,33 @@
 <template>
     <div>
-        <div><h2>{{msg.hello}}</h2></div>
-        <div class="title_text" v-html="msg.titleText"></div>
         <div class="biography_container">
             <div class="item1">
-                <img class="photo" alt="Photo" src="../../../assets/photo.jpeg">
+                <div>
+                    <h1>{{msg.aboutMeTitle}}</h1>
+                </div>
+                <div  v-html="msg.aboutMeText"></div>
             </div>
             <div class="item2">
-                <div v-html="msg.aboutMeText"></div>
+                <div>
+                    <Contacts></Contacts>
+                </div>
             </div>
-
         </div>
     </div>
 </template>
 <script>
     import text from "../../../assets/text"
+    import Contacts from "@/components/pages/about/Contacts";
     const lang = localStorage.getItem('language') === null ? "ru" : localStorage.getItem('language')
 
     export default {
         name: 'Biography',
+        components: {Contacts},
         data () {
             return {
                 msg: {
-                    hello: text[lang].biography.hello,
-                    titleText: text[lang].biography.titleText,
-                    aboutMeText: text[lang].biography.aboutMeText,
+                    aboutMeTitle: text[lang].menu.about,
+                    aboutMeText: text[lang].biography.aboutMeText
                 }
             }
         }

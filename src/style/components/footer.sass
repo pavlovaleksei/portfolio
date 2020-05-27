@@ -1,0 +1,93 @@
+.footer
+  background-color: #f5f8fa
+  border-bottom-style: solid
+  border-bottom-width: 1px
+  border-bottom-color: rgba(0, 0, 0, .125)
+  border-top-style: solid
+  border-top-width: 1px
+  border-top-color: rgba(0, 0, 0, .125)
+  position: relative
+  left: 0
+  bottom: 0
+  height: 30px
+
+a.contact_link:link
+  text-decoration: none
+  color: gray
+
+a.contact_link:visited
+  text-decoration: none
+  color: gray
+
+a.contact_link:active
+  text-decoration: none
+  color: gray
+
+a.contact_link:hover
+  text-decoration: none
+  color: dodgerblue
+
+a.contact_link_full:link
+  text-decoration: none
+  color: #2c3e50
+
+a.contact_link_full:visited
+  text-decoration: none
+  color: #2c3e50
+
+a.contact_link_full:active
+  text-decoration: none
+  color: #2c3e50
+
+a.contact_link_full:hover
+  text-decoration: none
+  color: dodgerblue
+
+//full screen
+@media screen and (min-width: 851px)
+  .footer_container
+    display: flex
+    .footer_item1
+      font-size: 14px
+      color: gray
+      text-align: left
+      flex: 1
+      vertical-align: bottom
+    .footer_item2
+      color: gray
+      text-align: right
+      flex: 1
+      vertical-align: bottom
+
+//mobile device
+@media screen and (max-width: 850px)
+  .footer_container
+    display: flex
+    .footer_item1
+      font-size: 10px
+      color: gray
+      text-align: left
+      flex: 1
+      vertical-align: bottom
+    .footer_item2
+      color: gray
+      text-align: right
+      flex: 1
+      vertical-align: bottom
+
+
+//mobile device iPhone 5/se
+@media screen and (max-width: 330px)
+  .footer_container
+    display: flex
+    .footer_item1
+      font-size: 10px
+      color: gray
+      text-align: left
+      flex: 1
+      vertical-align: bottom
+    .footer_item2
+      color: gray
+      text-align: right
+      flex: 1
+      vertical-align: bottom

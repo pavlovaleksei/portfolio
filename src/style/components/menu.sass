@@ -5,14 +5,19 @@
   background-color: white
   z-index: 900
   top: 0px
+  left: 50%
+  margin-right: -50%
+  transform: translate(-50%, 0)
 
 @media screen and (min-width: 471px)
   nav
-    width: 1340px
     position: fixed
     top: 30px
     //text-align: center
-    left: 35%
+    //left: 35%
+    left: 50%
+    margin-right: -50%
+    transform: translate(-50%, 0)
     z-index: 900
     background-color: white
 
@@ -79,7 +84,7 @@
   nav
     width: 100%
     position: fixed
-    top: 30px
+    top: 20px
     text-align: center
     z-index: 900
     background-color: white
@@ -149,6 +154,7 @@ nav a:hover:before
     animation: show .2s #{$i*0.1+1}s ease 1 both
 
 .checkLanguage
+  position: fixed
   right: initial
 
 .itemLanguage

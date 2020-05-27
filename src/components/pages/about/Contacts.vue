@@ -4,19 +4,25 @@
         <div class="contactsBox">
             <div>
                 <div>
-                    <b>{{msg.phone}} </b>+7 (927) 104-46-37
+                    <i class="fas fa-envelope"></i>	&nbsp;<a href="mailto:alekseipavlov1988@gmail.com" target="_blank" class="contact_link_full">alekseipavlov1988@gmail.com</a>
                 </div>
                 <div>
-                    <b>E-mail: </b>alekseipavlov1988@gmail.com
+                    <i class="fab fa-skype"></i> <a href="skype:pavlov_aleksei@list.ru" target="_blank" class="contact_link_full">Skype</a>
                 </div>
                 <div>
-                    <b>LinkedIn: </b>alekseipavlov1988@gmail.com
+                    <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/aleksey-pavlov-a65131182/" target="_blank" class="contact_link_full">LinkedIn</a>
                 </div>
                 <div>
-                    <b>GitHub: </b><a href="https://github.com/pavlovaleksei" target="_blank">@link</a>
+                    <i class="fab fa-instagram"></i> <a href="https://www.instagram.com/pavlov_aleksei" target="_blank" class="contact_link_full">Instagram</a>
                 </div>
                 <div>
-                    <b>Instagram: </b><a href="https://www.instagram.com/pavlov_aleksei" target="_blank">@link</a>
+                    <i class="fab fa-github-square"></i> <a href="https://github.com/pavlovaleksei" target="_blank" class="contact_link_full">GitHub</a>
+                </div>
+                <div>
+                    <i class="fab fa-telegram"></i> <a href="https://t-do.ru/pavlov_aleksey" target="_blank" class="contact_link_full">Telegram</a>
+                </div>
+                <div>
+                    <i class="fab fa-whatsapp"></i> <a href="https://wa.me/79271044637" target="_blank" class="contact_link_full">WhatsUp</a>
                 </div>
             </div>
         </div>
@@ -31,8 +37,7 @@
         data () {
             return {
                 msg: {
-                    title: text[lang].aboutContacts.title,
-                    phone: text[lang].aboutContacts.phone
+                    title: text[lang].aboutContacts.title
                 }
             }
         }

@@ -5,8 +5,6 @@
                 <a><router-link to="/">{{menuItems.about}}</router-link></a>
                 <p>|</p>
                 <a><router-link to="/projects">{{menuItems.projects}}</router-link></a>
-                <p>|</p>
-                <a><router-link to="/contacts">{{menuItems.contacts}}</router-link></a>
             </nav>
             <div class="checkLanguage">
                 <div v-if="!isRu" class="itemLanguage" @click="clickRu">RUS</div>

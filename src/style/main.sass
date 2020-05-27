@@ -1,25 +1,46 @@
-@import "components/app"
 @import "components/menu"
 @import "components/biography"
 @import "components/aboutProject"
 @import "components/aboutContacts"
+@import "components/header"
+@import "components/footer"
 
 //full screen
-@media screen and (min-width: 700px)
+@media screen and (min-width: 851px)
   #app
     font-family: 'Varela Round', Helvetica, Arial, sans-serif
     -webkit-font-smoothing: antialiased
     -moz-osx-font-smoothing: grayscale
     color: #2c3e50
-    width: 1340px
-    margin: 0 auto
+  .containerPage
+    width: 1024px
+    position: relative
+    left: 50%
+    margin-right: -50%
+    transform: translate(-50%, 0)
 
 //mobile device
-@media screen and (max-width: 699px)
+@media screen and (max-width: 850px)
   #app
     font-family: 'Varela Round', Helvetica, Arial, sans-serif
     -webkit-font-smoothing: antialiased
     -moz-osx-font-smoothing: grayscale
     color: #2c3e50
-    /*width: 1340px*/
     margin: 0 auto
+  .containerPage
+    width: 100%
+    position: relative
+    left: 50%
+    margin-right: -50%
+    transform: translate(-50%, 0)
+
+//mobile device iPhone 5/se
+@media screen and (max-width: 330px)
+  #app
+    font-family: 'Varela Round', Helvetica, Arial, sans-serif
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+    color: #2c3e50
+    margin: 0 auto
+  .containerPage
+    position: relative

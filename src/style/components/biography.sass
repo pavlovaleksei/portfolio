@@ -1,26 +1,39 @@
-@media screen and (max-width: 699px)
+//full screen
+@media screen and (min-width: 851px)
   .title_text
     margin-top: -1em
   .biography_container
+    display: flex
     .item1
+      flex: 2
     .item2
+      flex: 1
       .current_job
         margin-bottom: 1em
         margin-top: -1.5em
     .photo
       margin-top: 1em
 
-@media screen and (min-width: 700px)
+//mobile device
+@media screen and (max-width: 850px)
   .title_text
     margin-top: -1em
   .biography_container
-    display: flex
     .item1
     .item2
-      margin-left: 1em
       .current_job
         margin-bottom: 1em
         margin-top: -1.5em
     .photo
       margin-top: 1.5em
 
+//mobile device iPhone 5/se
+@media screen and (max-width: 330px)
+  .title_text
+    margin-top: -1em
+  .biography_container
+    .item1
+    .item2
+      .current_job
+    .photo
+      margin-top: 1.5em
