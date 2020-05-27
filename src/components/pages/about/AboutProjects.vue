@@ -14,7 +14,7 @@
             <div class="projectBox">
                 <div class="title">{{msg.labportal.title}}</div>
                 <div v-html="msg.labportal.detail"></div>
-                <div class="more">{{msg.more}}</div>
+                <div class="more"><a href="/projects#lab"> {{msg.more}}</a></div>
             </div>
             <div class="projectBox">
                 <div class="title">{{msg.contactCenter.title}}</div>
