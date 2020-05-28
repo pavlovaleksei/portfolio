@@ -14,8 +14,8 @@
     </div>
 </template>
 <script>
-    import text from "../assets/text"
     const lang = localStorage.getItem('language') === null ? "ru" : localStorage.getItem('language')
+    const doc = require('../assets/text/text_' + lang);
 
     export default {
         name: 'Menu',
@@ -23,9 +23,8 @@
             return {
                 isRu: true,
                 menuItems: {
-                    about: text[lang].menu.about,
-                    projects: text[lang].menu.projects,
-                    contacts:text[lang].menu.contacts
+                    about: doc.menu.about,
+                    projects: doc.menu.projects
                 }
             }
         },

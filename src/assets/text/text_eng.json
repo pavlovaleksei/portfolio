@@ -1,0 +1,90 @@
+{
+  "name": "Aleksey Pavlov",
+  "projecttitle": "My projects",
+  "menu": {
+    "about": "About me",
+    "projects": "Projects"
+  },
+  "biography": {
+    "birthDate": {
+      "title": "Birth date:",
+      "data": "02.04.1988"
+    },
+    "city": {
+      "title": "City:",
+      "data": "Saratov, Russia"
+    },
+    "experience": {
+      "title": "Relevant work experience:",
+      "data": "more than 10 years"
+    },
+    "specialization": {
+      "title": "Specialization:",
+      "data": "development of WEB applications of various levels of complexity"
+    },
+    "position": {
+      "title": "Position:",
+      "data": "Head of Software Development LLC \"AlfaTell\""
+    },
+    "technology": {
+      "title": "Used technologies:",
+      "frontend": {
+        "title": "Front-end:",
+        "data": "JavaScript ES6, VueJs, ExtJs, Backbone, ElectronJs, sass, less"
+      },
+      "backend": {
+        "title": "Back-end:",
+        "data": "Java, Scala, Spring Framework, Play Framework"
+      },
+      "db": {
+        "title": "БД:",
+        "data": "MySQL, mongoDb"
+      },
+      "other": {
+        "title": "Other:",
+        "data": "Akka, apache kafka"
+      }
+    },
+    "otherTechnology": {
+      "title": "Used technology in work:",
+      "data": "Linux, Jira, Jenkins, Docker"
+    }
+
+  },
+  "aboutContacts": {
+    "title": "Contact"
+  },
+  "projects": {
+    "infoclinicaRu": {
+      "title": "INFOCLINICA.RU",
+      "role": "<b>Role:</b> team lead.",
+      "text": "INFOCLINICA.RU - integrated SaaS solution for organizing an electronic registry website and a patient’s personal account of the clinic. <br>The service allows you to organize an independent recording of the patient's appointment, viewing and printing by the patient a list of scheduled visits, results of analyzes and recommendations of the doctor."
+    },
+    "labportal": {
+      "title": "Labportal",
+      "role": "<b>Role:</b> team lead.",
+      "text": "Laboratory data exchange service between clinics and laboratories. <br>Centralized support of reference books and preanalytical rules of leading laboratories. <br>Registration of orders to the laboratory remotely via a convenient web-based interface."
+    },
+    "misInfoclinica": {
+      "title": "WEB Infoclinica",
+      "role": "<b>Role:</b> team lead.",
+      "text": "Infoclinic's medical information system is the basis for building a single, well-structured clinic information space. <br>The functionality of the system covers all areas of activity of a modern medical institution, wide integration capabilities provide exchange with other information systems used both in the clinic and outside it, as well as use various communication channels with patients."
+    },
+    "ccAlfatell": {
+      "title": "Contact Center Alfatell",
+      "role": "<b>Role:</b> project manager, software architect, developer.",
+      "text": "AlfaTell Contact Center is a software and hardware solution that allows you to build a full-fledged corporate telephone network with a single plan of city short internal numbers with minimal financial costs. The service allows you to get the full range of functions of a modern office PBX that processes large flows of incoming and outgoing phone calls, as well as information received by E-mail, SMS, FAX."
+    },
+    "visualControl": {
+      "title": "Visual Control",
+      "role": "<b>Role:</b> founder, developer.",
+      "text": "A service that allows you to organize video monitoring of any scale using any type of ip, web camera, without the use of special hardware systems (video recorder)."
+    },
+    "terminal": {
+      "title": "Self-service terminal",
+      "role": "<b>Role:</b> software architect, developer.",
+      "text": "A solution that allows a medical clinic to receive information about a patient’s visit. <br> The service is implemented as terminal software installed at the entrance to a medical clinic."
+    },
+    "otherProjectInfo": "This list contains the most difficult projects in my opinion. Besides them, I also took part in various positions in the development of server applications, web sites, both self-written and CMS ..."
+  }
+}

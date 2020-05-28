@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Header/>
+        <Header :isCustom="true"/>
         <div class="containerPage">
             <Project
                     v-for="item in projects"
@@ -12,16 +12,21 @@
                     :role="item.role"
                     :text="item.text"
             />
+            <div class="other_text">
+                <i>{{otherText}}</i>
+            </div>
 
         </div>
         <Footer/>
     </div>
 </template>
 <script>
-    // import AboutProjects from '@/components/pages/about/AboutProjects'
     import Header from '@/components/Header'
     import Footer from '@/components/Footer'
     import Project from '@/components/projects/BaseProject'
+
+    const lang = localStorage.getItem('language') === null ? "ru" : localStorage.getItem('language');
+    const doc = require('../../assets/text/text_' + lang);
 
     export default {
         name: 'Projects',
@@ -32,57 +37,50 @@
         },
         data () {
             return {
+                otherText: doc.projects.otherProjectInfo,
                 projects: [
                     {
                         id: 'infoclinicaRu',
                         image: "portal_logo.png",
-                        title: 'ИНФОКЛИНИКА.RU',
+                        title: doc.projects.infoclinicaRu.title,
                         link: 'https://demo.infoclinica.ru',
-                        role: '<b>Роль:</b> Руководитель группы web разработчиков.',
-                        text: "ИНФОКЛИНИКА.RU - комплексное SaaS решение для организации сайта электронной регистратуры и личного кабинета пациента клиники. <br>Сервис позволяет организовать самостоятельную запись пациента на прием, просмотр и печать пациентом списка запланированных посещений, результатов анализов и рекомендаций врача."
-
+                        role: doc.projects.infoclinicaRu.role,
+                        text: doc.projects.infoclinicaRu.text
                     },
                     {
                         id: 'labportal',
                         image: "lab_logo.jpeg",
-                        title: 'ЛАБПОРТАЛ',
-                        role: '<b>Роль:</b> Руководитель группы web разработчиков.',
-                        text: "Сервис обмена данными по лабораторным исследованиям между клиниками и лабораториями. <br>Централизованная поддержка справочников и преаналитических правил ведущих лабораторий. <br>Регистрация заказов в лабораторию в удаленном режиме через удобный web-интерфейс."
+                        title: doc.projects.labportal.title,
+                        role: doc.projects.labportal.role,
+                        text: doc.projects.labportal.text
                     },
                     {
                         id: 'misInfoclinica',
                         image: "webinf_logo.jpeg",
-                        title: 'WEB Инфоклиника',
-                        role: '<b>Роль:</b> Руководитель группы web разработчиков.',
-                        text: "Медицинская информационная система Инфоклиника - это основа для построения единого, хорошо структурированного информационного пространства клиники. <br>Функционал системы охватывает все направления деятельности современного медицинского учреждения, широкие интеграционные возможности обеспечивают обмен с другими информационными системами, используемыми как в самой клинике, так и вне неё, а также задействовать различные каналы коммуникации с пациентами."
+                        title: doc.projects.misInfoclinica.title,
+                        role: doc.projects.misInfoclinica.role,
+                        text: doc.projects.misInfoclinica.text
                     },
                     {
                         id: 'cc-alfatell',
                         image: "alfatell_logo.png",
-                        title: 'Контакт-центр Альфателл',
-                        role: '<b>Роль:</b> руководитель проекта, программный архитектор, разработчик.',
-                        text: "Контакт-центр АльфаТелл — программно-аппаратное решение,\n" +
-                            "позволяющее с минимальными финансовыми затратами построить\n" +
-                            "полноценную корпоративную телефонную сеть с единым планом\n" +
-                            "городских коротких внутренних номеров." +
-                            "<br>" +
-                            "Сервис позволяет получить полный набор функций современной офисной АТС,\n" +
-                            "обрабатывающей большие потоки входящих и исходящих телефонных\n" +
-                            "звонков, а также информацию, поступающую путём E-mail, SMS, FAX."
+                        title: doc.projects.ccAlfatell.title,
+                        role: doc.projects.ccAlfatell.role,
+                        text: doc.projects.ccAlfatell.text
                     },
                     {
                         id: 'visual-control',
                         image: "alfatell_logo.png",
-                        title: 'Визуальный контроль',
-                        role: '<b>Роль:</b> основатель приложения, разработчик.',
-                        text: "Медицинская информационная система Инфоклиника - это основа для построения единого, хорошо структурированного информационного пространства клиники. <br>Функционал системы охватывает все направления деятельности современного медицинского учреждения, широкие интеграционные возможности обеспечивают обмен с другими информационными системами, используемыми как в самой клинике, так и вне неё, а также задействовать различные каналы коммуникации с пациентами."
+                        title: doc.projects.visualControl.title,
+                        role: doc.projects.visualControl.role,
+                        text: doc.projects.visualControl.text
                     },
                     {
                         id: 'terminal',
                         image: "default.png",
-                        title: 'Терминал самообслуживания',
-                        role: '<b>Роль:</b> программный архитектор, разработчик.',
-                        text: "Медицинская информационная система Инфоклиника - это основа для построения единого, хорошо структурированного информационного пространства клиники. <br>Функционал системы охватывает все направления деятельности современного медицинского учреждения, широкие интеграционные возможности обеспечивают обмен с другими информационными системами, используемыми как в самой клинике, так и вне неё, а также задействовать различные каналы коммуникации с пациентами."
+                        title: doc.projects.terminal.title,
+                        role: doc.projects.terminal.role,
+                        text: doc.projects.terminal.text
                     }
                 ]
             }

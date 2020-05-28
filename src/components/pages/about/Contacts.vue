@@ -29,15 +29,15 @@
     </div>
 </template>
 <script>
-    import text from "../../../assets/text"
-    const lang = localStorage.getItem('language') === null ? "ru" : localStorage.getItem('language')
+    const lang = localStorage.getItem('language') === null ? "ru" : localStorage.getItem('language');
+    const doc = require('../../../assets/text/text_' + lang);
 
     export default {
         name: 'Contacts',
         data () {
             return {
                 msg: {
-                    title: text[lang].aboutContacts.title
+                    title: doc.aboutContacts.title
                 }
             }
         }
