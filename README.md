@@ -1,5 +1,9 @@
-# portfolio
-link: https://pavlovaleksei.github.io/
+# Personal portfolio site
+This project is my personal portfolio site.
+<br>
+Used technologies - VueJs, Sass.
+<br>
+Show demo: https://pavlovaleksei.github.io/
 
 ## Project setup
 ```
@@ -15,11 +19,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
