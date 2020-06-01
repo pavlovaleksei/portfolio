@@ -7,7 +7,7 @@
         </div>
         <div class="header" v-if="!isCustom">
             <div class="header_content">
-                <img class="header_image" alt="Photo" src="../assets/photo.png">
+                <img class="header_image" alt="Photo" src="../assets/photo.jpg">
                 <div>
                     <div class="header_title">{{msg.name}}</div>
                     <div class="header_description">fullstack web developer</div>
