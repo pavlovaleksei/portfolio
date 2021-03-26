@@ -17,6 +17,11 @@
                 <div>
                     <b>{{msg.position.title}} </b>{{msg.position.data}}
                 </div>
+
+                <div>
+                    <b>{{msg.preposition.title}} </b>{{msg.preposition.data}}
+                </div>
+
                 <div>
                     <dl style="margin-top: 0; margin-bottom: 0">
                         <dt><b>{{msg.technology.title}} </b></dt>
@@ -69,6 +74,10 @@
                     position: {
                         title: doc.biography.position.title,
                         data: doc.biography.position.data
+                    },
+                    preposition: {
+                        title: doc.biography.preposition.title,
+                        data: doc.biography.preposition.data
                     },
                     technology: {
                         title: doc.biography.technology.title,
