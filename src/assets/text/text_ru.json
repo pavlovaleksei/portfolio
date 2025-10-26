@@ -20,11 +20,11 @@
     },
     "specialization": {
       "title": "Специализация:",
-      "data": "разработка WEB приложений разного уровня сложности"
+      "data": "разработка WEB приложений и мобильных приложений разного уровня сложности"
     },
     "position": {
       "title": "Занимаемая должность:",
-      "data": "Ведущий разработчик. Teamlead команды web разработки портальных решений Smart Delta Systems"
+      "data": "Руководитель web и мобильной разработки портальных решений Smart Delta Systems"
     },
     "preposition": {
       "title": "Предшествующая должность:",
@@ -38,11 +38,11 @@
       },
       "backend": {
         "title": "Back-end:",
-        "data": "Java, Scala, Spring Framework, Play Framework"
+        "data": "Java, Scala, Kotlin, Swift, Spring Framework, Play Framework"
       },
       "db": {
         "title": "БД:",
-        "data": "MySQL, mongoDb"
+        "data": "MySQL, mongoDb, FireBird"
       },
       "other": {
         "title": "Остальное:",
@@ -51,7 +51,7 @@
     },
     "otherTechnology": {
       "title": "Использовал в работе технологии:",
-      "data": "Linux, Jira, Jenkins, Docker"
+      "data": "Linux, Jira, Jenkins, Docker, K8s"
     }
 
   },
